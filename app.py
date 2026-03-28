@@ -12,7 +12,7 @@ def home():
 @app.route('/api/hello')
 def hello_api():
     data = {
-        "message": "Hello from the Python backend!",
+        "message": "THIS THE PROJECT",
         "status": "success",
         "version": "1.0.0"
     }
