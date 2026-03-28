@@ -3,8 +3,8 @@ FROM python:3.9-slim
 WORKDIR /app
 COPY . .
 
-# Install Python dependencies
-RUN pip install -r requirements.txt
+# Correct requirements file
+RUN pip install -r requirement.txt
 
-# Default command
+# Run the app
 CMD ["python", "app.py"]
