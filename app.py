@@ -21,4 +21,4 @@ def hello_api():
 # Run the app
 if __name__ == '__main__':
     # Setting debug=True allows for automatic reloading when code changes
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0" debug=True, port=80)
