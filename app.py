@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Define the 'Home' route
 @app.route('/')
 def home():
-    return "<h1>Welcome to my Demo App!</h1><p>Go to /api/hello to see a JSON response.</p>"
+    return "<h1>Welcome to Ajay Space!</h1><p>Go to /api/hello to see a JSON response.</p>"
 
 # Define a route that returns JSON data
 @app.route('/api/hello')
