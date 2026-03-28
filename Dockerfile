@@ -1,6 +1,10 @@
 FROM python:3.9-slim
+
 WORKDIR /app
 COPY . .
 
-RUN pip install -r requirment.txt
-CMD {"python" , "app.py" }
+# Install Python dependencies
+RUN pip install -r requirements.txt
+
+# Default command
+CMD ["python", "app.py"]
